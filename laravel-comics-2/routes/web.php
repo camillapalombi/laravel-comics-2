@@ -13,12 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('visitors.home');
 })->name('home');
 
 
-Route::get('/', function () {
+Route::get('/comics', function () {
     $comics = config('comics');
 
     $data = [
@@ -37,9 +37,10 @@ Route::get('/comics/{id}', function($id) {
         $selectedComic = array_values($selectedComic->all())[0];
     }
 
+    
     //dd($selectedComic ->all()[0]['title']);
 
-    return view('visitors.comics', [
+    return view('visitors.comic', [
         'title' => $selectedComic['title'],
         'fumetto' => $selectedComic
     ]);
