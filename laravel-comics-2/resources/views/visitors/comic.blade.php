@@ -48,6 +48,7 @@
 
 <!--SECTION RIGHT -->
           <div class="section-right">
+            <span class="advertisement">ADVERTISEMENT</span>
              <img src="{{ asset('/img/adv.jpg') }}" alt="Advertising">
           </div>
        </div>

@@ -293,3 +293,21 @@
     }
 }
 
+.container-description {
+    background-color: #fff;
+    padding: 4rem 0;
+ 
+    .container {
+       display: flex;
+       justify-content: flex-start;
+ 
+       a.back {
+          display: block;
+          font-weight: 700;
+          color: $primary-color;
+          margin-bottom: 1rem;
+       }
+}
+}
+
+
