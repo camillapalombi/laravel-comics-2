@@ -14,6 +14,7 @@
     display: flex;
   }
   
+
   /* HEADER */
   
   .header-container {
@@ -61,6 +62,7 @@
   }
   
   
+
   /*FOOTER */ 
   
   .footer-top {
@@ -149,6 +151,7 @@
   }
   
   
+
   /* MAIN */
   .section-main-top {
     width: 100%;
@@ -228,10 +231,6 @@
     margin-top: 10px;
   }
   
-  
-  
-  
-  
   nav {
     z-index: 20;
     background-color: #0282f9;
@@ -257,3 +256,40 @@
   .img-locator {
     width: 30px;
   }
+
+
+
+  /* COMIC BLADE PHP : */
+.container {
+  height: 100%;
+  position: relative;
+}
+.container-jumbotron {
+  height: 30rem;
+  img {
+     object-fit: cover;
+     object-position: top;
+     height: 100%;
+     width: 100%;
+  }
+}
+.blue-line {
+  width: 100%;
+  background-color: #0282f9;
+  height: 4rem;
+}
+
+.single-img {
+  width: 12rem;
+  height: 18rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  border: 1px solid white;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+}
+

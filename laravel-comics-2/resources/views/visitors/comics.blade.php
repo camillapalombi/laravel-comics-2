@@ -6,7 +6,7 @@
 
 <div>
     <section class="section-main-top">
-        <img src="../img/jumbotron.jpg" alt="ciao">
+        <img src="../img/jumbotron.jpg" alt="DC">
     </section>
 
     <section class="section-main-bottom">
