@@ -49,7 +49,7 @@
 
       </div>
 
-      <img class="dc-logo-background" src="./img/dc-logo-bg.png" alt="" />
+      <img class="dc-logo-background" src="/img/dc-logo-bg.png" alt="" />
 
     </div>
   </div>
@@ -65,11 +65,11 @@
 
           <div class="follow-container">
               <span>FOLLOW US</span>
-              <img src="./img/footer-facebook.png" alt="facebook">
-              <img src="./img/footer-twitter.png" alt="twitter">
-              <img src="./img/footer-youtube.png" alt="youtube">
-              <img src="./img/footer-pinterest.png" alt="pinterest">
-              <img src="./img/footer-periscope.png" alt="periscope">
+              <img src="/img/footer-facebook.png" alt="facebook">
+              <img src="/img/footer-twitter.png" alt="twitter">
+              <img src="/img/footer-youtube.png" alt="youtube">
+              <img src="/img/footer-pinterest.png" alt="pinterest">
+              <img src="/img/footer-periscope.png" alt="periscope">
           </div>
 
       </div>

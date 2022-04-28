@@ -4,5 +4,9 @@
     
 
 @section('content')
+    <h1> {{ $comic['series']}}</h1>
 
+    <img src="{{ $comic['thumb'] }}" alt="Comic Image">
+
+    <p> {{ $comic['description'] }} </p>
 @endsection
