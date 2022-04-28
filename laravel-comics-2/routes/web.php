@@ -14,11 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('visitors.home');
-})->name('home');
-
-
-Route::get('/comics', function () {
     $comics = config('comics');
 
     $data = [
@@ -29,22 +24,23 @@ Route::get('/comics', function () {
 })->name('comics');
 
 
-Route::get('/comics/{id}', function($id) {
+Route::get('/comic/{id}', function($id) {
     $comics = collect(config('comics'));
 
-    $selectedComic = $comics->where('id', $id);
-    if ($comics->count() === 1) {
-        $selectedComic = array_values($selectedComic->all())[0];
+    $selectedComics = $comics->where('id', $id);
+    if ($selectedComics->count() === 1) {
+        $selectedComic = array_values($selectedComics->all())[0];
+    } else {
+        abort(404);
     }
 
     
     //dd($selectedComic ->all()[0]['title']);
 
-    return view('visitors.comic', [
-        'title' => $selectedComic['title'],
-        'fumetto' => $selectedComic
-    ]);
-});
+    return view('visitors.comic', ['comic' => $selectedComic,
+    'title' => $selectedComic['series']
+]);
+})->name('comic');
 
 
 

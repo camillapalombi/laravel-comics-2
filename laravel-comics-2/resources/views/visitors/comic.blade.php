@@ -4,5 +4,5 @@
     
 
 @section('content')
-    <h2> {{ $fumetto['title'] }} </h2>
+
 @endsection
