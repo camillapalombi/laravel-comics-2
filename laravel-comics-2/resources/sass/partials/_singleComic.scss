@@ -1,0 +1,51 @@
+  /* COMIC BLADE PHP : */
+  
+  .container {
+    height: 100%;
+    position: relative;
+  }
+  .container-jumbotron {
+    height: 30rem;
+    img {
+       object-fit: cover;
+       object-position: top;
+       height: 100%;
+       width: 100%;
+    }
+  }
+  .blue-line {
+    width: 100%;
+    background-color: $activeColor;
+    height: 4rem;
+  }
+  
+  .single-img {
+    width: 12rem;
+    height: 18rem;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    border: 1px solid white;
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+  }
+  
+  .container-description {
+      background-color: #fff;
+      padding: 4rem 0;
+   
+      .container {
+         display: flex;
+         justify-content: flex-start;
+   
+         a.back {
+            display: block;
+            font-weight: 700;
+            color: blue;
+            margin-bottom: 1rem;
+         }
+  }
+  }

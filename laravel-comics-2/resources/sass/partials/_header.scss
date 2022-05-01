@@ -1,0 +1,45 @@
+  /* HEADER */
+  
+  .header-container {
+    height: 8rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container-header-left {
+    width: 20%;
+  }
+  
+  .container-header-left img {
+    width: 70px;
+  }
+  
+  .container-header-right {
+    width: 80%;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    line-height: 7.7em;
+  }
+  li {
+    margin-right: 25px;
+    border-bottom: 4px solid transparent;
+    transition: all .5s;
+  }
+  li:hover {
+    border-bottom: 4px solid $activeColor;
+  }
+  
+  a {
+    color: $activeColor;
+  }
+  
+  a {
+    text-decoration: none;
+    color: $text_grey;
+    font-weight: bold;
+    transition: all .5s;
+  }
