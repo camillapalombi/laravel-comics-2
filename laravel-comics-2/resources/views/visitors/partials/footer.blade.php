@@ -3,7 +3,7 @@
     <!--FOOTER TOP-->
   <div class="footer-top">
 
-    <div class="container footer-container-top">
+    <div class="central-container footer-container-top">
 
       <div class="footer-links-container">
 
@@ -57,7 +57,7 @@
   <!--FOOTER BOTTOM-->
   <div class="footer-bottom">
 
-      <div class="container footer-container-bottom">
+      <div class="central-container footer-container-bottom">
 
           <div class="btn-container">
               <button>SIGN-UP NOW!</button>

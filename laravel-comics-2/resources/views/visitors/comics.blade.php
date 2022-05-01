@@ -13,7 +13,7 @@
 
         <div class="label-current-series">CURRENT SERIES</div>
 
-        <div class="container container-box-series">
+        <div class="central-container container-box-series">
             
             <!--FOREACH: -->
             @foreach ($comics as $comic)
@@ -42,7 +42,7 @@
 
 <div>
     <nav>
-        <div class="container nav-container">
+        <div class="central-container nav-container">
             <div class="nav-item">
                 <img src="../img/buy-comics-digital-comics.png" alt="Digital Comics">
                 <div>DIGITAL COMICS</div>

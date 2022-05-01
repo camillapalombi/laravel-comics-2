@@ -2,7 +2,7 @@
 
 <header>
 
-    <div class="container header-container">
+    <div class="central-container header-container">
       <div class="container-header-left">
           <img class="logo-dc-logo" src="/img/dc-logo.png" alt="DC Logo">
       </div>

@@ -55,7 +55,7 @@
     </div>
 
  <!-- COMICS INFORMATIONS BOX -->
-    <section id="box-info">
+    <section class="box-info">
        <div class="container">
            <!--LEFT INFO BOX -->
           <div class="left-info">
@@ -85,13 +85,13 @@
              </div>
              <div class="info-row">
                 <span class="prefix-info">U.S. Price:&nbsp;</span>
-                <span class="informations">
+                <span class="informations-grey">
                     {{ $comic['price'] }}
                 </span>
              </div>
              <div class="info-row">
                 <span class="prefix-info">On Sales Date:</span>
-                <span class="informations">
+                <span class="informations-grey">
                     {{ $comic['sale_date'] }}
                 </span>
              </div>

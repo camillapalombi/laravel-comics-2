@@ -10,7 +10,7 @@ html {
   color: black;
 }
 
-.container {
+.central-container {
   max-width: 1100px;
   margin: auto;
   display: flex;
@@ -283,6 +283,15 @@ nav {
 /* COMIC BLADE PHP : */
 .container {
   position: relative;
+  height: 100%;
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #003F5E;
 }
 
 .container-jumbotron {
@@ -326,9 +335,80 @@ nav {
   display: flex;
   justify-content: flex-start;
 }
-.container-description .container a.back {
-  display: block;
-  font-weight: 700;
-  color: blue;
-  margin-bottom: 1rem;
+
+.green-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #55BA59;
+  height: 3rem;
+  margin: 1.2rem 0;
+  font-weight: 600;
+  border-bottom: 1px #357739 solid;
+  font-size: 0.9rem;
+  color: white;
+}
+
+select {
+  background-color: #55BA59;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+}
+
+p {
+  line-height: 2.3rem;
+  color: rgb(87, 87, 87);
+}
+
+.section-left {
+  margin-right: 40px;
+}
+
+.section-right {
+  width: 300px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 15px;
+  color: rgb(68, 68, 68);
+}
+
+.box-info {
+  width: 100%;
+  height: 20rem;
+  background-color: #f6f6f6;
+  border: 2px solid rgb(236, 236, 236);
+}
+
+h3 {
+  color: #003F5E;
+  font-size: 18px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.prefix-info {
+  color: #003F5E;
+}
+
+.informations {
+  color: #00A9D9;
+  font-weight: bold;
+}
+
+.informations-grey {
+  color: rgb(73, 73, 73);
+}
+
+.info-row {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.right-info {
+  margin-left: 50px;
 }
