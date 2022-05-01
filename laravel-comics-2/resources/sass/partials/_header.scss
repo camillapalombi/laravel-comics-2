@@ -43,3 +43,10 @@
     font-weight: bold;
     transition: all .5s;
   }
+
+.active {
+  color: $activeColor;
+}
+.activeLi {
+  border-bottom: 4px solid $activeColor;
+}

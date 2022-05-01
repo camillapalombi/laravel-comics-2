@@ -9,7 +9,7 @@
       <div class="container-header-right">
           <ul>
               <li><a href="#!"> CHARACTERS </a></li>
-              <li><a href="{{ route('comics') }}"> COMICS </a></li>
+              <li class="{{ Route::current()->getName() == 'comics' || Route::current()->getName() == 'comic' ? 'activeLi' : '' }}"><a href="{{ route('comics') }}" class="{{ Route::current()->getName() == 'comics' || Route::current()->getName() == 'comic' ? 'active' : '' }}"> COMICS </a></li>
               <li><a href="#!"> MOVIES </a></li>
               <li><a href="#!"> TV </a></li>
               <li><a href="#!"> GAMES </a></li>
