@@ -375,7 +375,7 @@ p {
 
 .box-info {
   width: 100%;
-  height: 20rem;
+  height: 25rem;
   background-color: #f6f6f6;
   border: 2px solid rgb(236, 236, 236);
 }
@@ -390,23 +390,27 @@ h3 {
 
 .prefix-info {
   color: #003F5E;
+  margin-right: 75px;
+  width: 100px;
 }
 
 .informations {
   color: #00A9D9;
   font-weight: bold;
+  width: 350px;
 }
 
 .informations-grey {
   color: rgb(73, 73, 73);
+  width: 350px;
 }
 
 .info-row {
   width: 400px;
   display: flex;
-  justify-content: space-between;
   padding: 15px 0px;
   border-bottom: 1px solid rgb(236, 236, 236);
+  justify-content: space-between;
 }
 
 .right-info {
